@@ -1,11 +1,11 @@
-#programa once
+#pragma once
 
 #include <stdio.h>
 #include <stdlib.h>
 
 #define GLEW_STATIC
 
-#include <GL/glew.h>
+#include "GL/glew.h"
 #include "GLFW/glfw3.h"
 
 #include <iostream>
@@ -14,7 +14,9 @@
 #include <string>
 #include <vector>
 
+
 using namespace std;
+
 
 class Shader {
 public:
